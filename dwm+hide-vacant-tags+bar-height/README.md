@@ -1,14 +1,5 @@
-Welcome to my DWM Setup
-=======================
-
-This is my very first DWM 6.2 newest build. Very simple and works well for my workflow.
-
-
-Features
---------
-
-The cool feature on this DWM setup is created with solid patches. I explore some patches and I think only this 6 pathes works great on my workflow.
-
+DWM 6.2
+-------
 Patches in this DWM
 -------------------
 
@@ -18,13 +9,6 @@ Patches in this DWM
 - Systray             // I use this to set tray before the dwmbloks (date status)
 - Pertag              // use this to make different tag mode for every tag. Ex: [1] set to Floating, but in [2] can set to Monocle
 - Alwayscenter        // make floating window always in center of the screen
-
-Keybinds
---------
-
-There is no fancy binding, I make default DWM keybind to keep DWM as it is.
-
-Only change for `mod` key set to `windows` key.
 
 Dependencies apps
 -----------------
@@ -44,8 +28,6 @@ Some apps might have to install to make `config.h` file works well, such as:
 Fonts
 --------------------------
 
-I prefer using this font
-
 - SF Pro Display Medium for system
 - JetBrains Mono for terminal font
 
@@ -57,17 +39,6 @@ This is important thing to do
 2. Create symbolic link of `autostart.sh` file on `~/.local/share/dwm/`
    - `cd ~/.local/share/dwm/`
    - `ln -s path/to/autostart.sh autostart.sh`
-
-Screenshot
-----------
-
-![dwm screenshot - minimalist - solid - mrfdn](https://github.com/rafimrfdn/dwm-freebsd/blob/main/dwm%2Bhide-vacant-tags/freebsd-dwm-vacantags-slstatus.png)
-
-
-dwm - dynamic window manager
-============================
-dwm is an extremely fast, small, and dynamic window manager for X.
-
 
 Requirements
 ------------
@@ -107,9 +78,4 @@ like this in your .xinitrc:
     done &
     exec dwm
 
-
-Configuration
--------------
-The configuration of dwm is done by creating a custom config.h
-and (re)compiling the source code.
 
